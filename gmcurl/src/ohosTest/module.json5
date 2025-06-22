@@ -1,0 +1,19 @@
+{
+  "module": {
+    "name": "gmcurl_test",
+    "type": "feature",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ],
+    "deliveryWithInstall": true,
+    "installationFree": false,
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERNET",
+        "reason": "$string:EntryAbility_label"
+      },
+    ]
+  }
+}

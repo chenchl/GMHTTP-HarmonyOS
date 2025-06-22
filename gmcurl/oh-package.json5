@@ -1,0 +1,19 @@
+{
+  "name": "@chenchl/gmcurl",
+  "keywords": [
+    'security',
+    '安全',
+    'https',
+    '网络',
+    'OpenHarmony',
+    'HarmonyOS'
+  ],
+  "version": "1.0.0",
+  "description": "一个可以在HarmonyOS使用的国密https请求组件",
+  "main": "Index.ets",
+  "author": "chenchl",
+  "type": "module",
+  "dependencies": {
+    "libgmcurl.so": "file:./src/main/cpp/types/libgmcurl"
+  }
+}

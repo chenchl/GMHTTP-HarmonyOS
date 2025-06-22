@@ -1,0 +1,6 @@
+{
+  "name": "libgmcurl.so",
+  "types": "./gmcurl.d.ts",
+  "version": "1.0.0",
+  "description": "国密TLCP通讯curl库封装."
+}
