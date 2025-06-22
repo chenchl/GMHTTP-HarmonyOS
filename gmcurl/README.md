@@ -23,27 +23,13 @@ HarmonyOS 应用开发。
 
 ### 安装依赖
 
-#### 1. 添加依赖
-
-- 将gmcurl-1.0.0.har文件放入需要引入模块的libs目录下
-- 在需要引入的模块 `oh-package.json5` 文件中添加：
-
-```json5
-{
-   //...
-  "dependencies": {
-    "@chenchl/gmcurl": "file:../entry/libs/gmcurl-1.0.0.har"
-  }
-}
-```
-
-#### 2. 同步依赖
+#### 1. 同步依赖
 
 ```bash
-ohpm install
+ohpm install @chenchl/gmcurl
 ```
 
-#### 3. 混淆规则（可选）
+#### 2. 混淆规则（可选）
 
 - 如果希望gmcurl库在代码混淆过程中不会被混淆，需要在混淆规则配置文件obfuscation-rules.txt中添加相应的排除规则：
 
