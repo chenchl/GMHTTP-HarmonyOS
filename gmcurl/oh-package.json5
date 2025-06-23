@@ -13,6 +13,7 @@
   "main": "Index.ets",
   "author": "chenchl",
   "type": "module",
+  "license": "Apache-2.0",
   "dependencies": {
     "libgmcurl.so": "file:./src/main/cpp/types/libgmcurl"
   }
