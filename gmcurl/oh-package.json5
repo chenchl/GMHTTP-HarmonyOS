@@ -10,7 +10,7 @@
   ],
   "homepage": "https://github.com/chenchl",
   "repository": "https://github.com/chenchl/GMHTTP-HarmonyOS",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "一个可以在HarmonyOS使用的国密https请求组件",
   "main": "Index.ets",
   "author": "chenchl",

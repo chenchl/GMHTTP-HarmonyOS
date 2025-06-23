@@ -5,6 +5,9 @@
 本模块基于 libcurl 提供跨平台的 HTTP/HTTPS 请求支持，完整实现 TLS/SSL 及国密算法协议通信。支持异步 Promise 编程模型，适用于
 HarmonyOS 应用开发。
 
+## 仓库地址
+[GMHTTP-HarmonyOS](https://github.com/chenchl/GMHTTP-HarmonyOS)
+
 ## 功能特性
 
 - 支持 GET/POST/PUT/DELETE HTTP 方法
